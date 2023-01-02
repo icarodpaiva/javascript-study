@@ -1,17 +1,17 @@
 // string positions
-const x = "some string"
-console.log("position", x[0])
-console.log("charAt", x.charAt(0))
+const string = "some string"
+console.log("position", string[0])
+console.log("charAt", string.charAt(0))
 
 // reserverd words in objects
-const y = {
+const reservedWords = {
   public: "public",
   private: "private",
   new: "new",
   class: "class",
   function: "function"
 }
-console.log("object with reserverd words", y)
+console.log("object with reserverd words", reservedWords)
 
 // cut white spaces
 console.log("       white scpaces around       ".trimStart())

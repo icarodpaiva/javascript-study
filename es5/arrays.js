@@ -2,6 +2,7 @@
 const people = [
   { lastName: "Priolli", age: 29 },
   { lastName: "Pacheco", age: 27 },
+  { lastName: "Martins", age: 27 },
   { lastName: "Paiva", age: 26 },
   { lastName: "Barreto" }
 ]
@@ -52,3 +53,7 @@ console.log("somePeopleHasAge", somePeopleHasAge)
 // indexOf - return the position has value passed in argument
 const firstPersonWith27YPosition = people.map(({ age }) => age).indexOf(27)
 console.log("firstPersonWith27YPosition", firstPersonWith27YPosition)
+
+// indexOf - return the last position has value passed in argument
+const lastPersonWith27YPosition = people.map(({ age }) => age).lastIndexOf(27)
+console.log("lastPersonWith27YPosition", lastPersonWith27YPosition)
