@@ -13,3 +13,6 @@ const listWithMorePositions = [...list, 3, 4]
 
 console.log('list', list) // [1, 2]
 console.log('listWithMorePositions', listWithMorePositions) // [1, 2, 3 ,4]
+
+const paramsWithSpread = (...args) => args
+console.log('paramsWithSpread', paramsWithSpread(1, 2, 3, 4)) // [1, 2, 3 ,4]
